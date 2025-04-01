@@ -1,0 +1,33 @@
+HISTORIAS DE USUARIO:
+
+IdealWeightCalc(): Como usuario de la calculadora de salud
+                               Quiero introducir mis datos (peso, altura)
+                               Para poder conocer cual sería mi peso ideal
+
+
+BasalMetabolicRate(): Como usuario de la calculadora de la salud
+                                    Quiero introducir mis datos (peso, altura, edad, género)
+                                    Para poder conocer cual es mi tasa metabólica.
+
+
+CRITERIOS DE ACEPTACIÓN:
+
+IdealWeightCalc(): <<Introduzco mis datos correctamente>>
+Dado que soy un usuario de la calculadora de la salud
+Cuando introduzco mi peso y mi altura
+Entonces el método calcula mi peso ideal.
+
+IdealWeightCalc(): <<Introduzco mis datos erroneamente>>
+Dado que soy un usuario de la calculadora de la salud
+Cuando introduzco mi peso y mi altura
+Entonces el método me manda un error.
+
+BasalMetabolicRate(): <<Introduzco mis datos correctamente>>
+Dado que soy un usuario de la calculadora de la salud
+Cuando introduzco mi peso, altura, edad y género
+Entonces el método mi calcula mi tasa metabólica basal.
+
+BasalMetabolicRate(): <<Introduzco mis datos erroneamente>>
+Dado que soy un usuario de la calculadora de la salud
+Cuando introduzco mi peso, altura, edad y género
+Entonces el método me manda un error.
